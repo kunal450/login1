@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+}
+.register{
+    background-color: blueviolet;
+}
+.regCard{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 70%;
+}
+.regHead{
+    background-color:rgb(56, 5, 104); ;
+    color: white;
+}
+h2{
+    font-size: x-large;
+}
+table {
+    table-layout: fixed ;
+    width: 75% ;
+  column-gap: 10px;
+  }
+  td {
+    width: 25% ;
+    
+  }
+  *{
+      font-size: small;
+  }
+  input, select{
+      font-size: small;
+  }
+
+
+
+  @media (min-width: 1200px) { 
+    .regCard{
+        width: 50%;
+    }
+    }

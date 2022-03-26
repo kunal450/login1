@@ -1,0 +1,38 @@
+
+    <body style="background-color: blueviolet; height: 100vh;" class="d-flex flex-column align-item-center ">
+
+   
+        <div class="logCard m-auto " style="background-color: darkblue;">
+            <div class="heading text-center " style="margin-top: 15px; color: white;"><strong ><h4>LOGIN</h4></strong></div>
+           <div class="card-body"  >
+               <form action="">
+                   <div class="input-group mb-3">
+                       <div class="input-group-prepend">
+                          <span class="input-group-text">
+                              <i class="fa fa-user fa-x"></i>
+                          </span> 
+                       </div>
+                       <input type="text" class="form-control py-2" #idvale   placeholder="UserName">
+                   </div>
+                   <div class="input-group mb-3">
+                       <div class="input-group-prepend">
+                          <span class="input-group-text">
+                              <i class="fa fa-lock fa-x"></i>
+                          </span> 
+                       </div>
+                       <input type="password" class="form-control py-2" #passVal placeholder="password">
+                   </div>
+                   <div class="d-flex justify-content-between">
+                       <div><a routerLink="/register" style="text-decoration: none; color: white;">Register</a></div>
+                       <div><a routerLink="/" style="text-decoration: none; color: white;">Forget Password</a></div>
+                   </div>
+                   <div class="text-center">
+                       <button class="btn btn-success" (onClick)="check(idvale.value,passVal.value)">Submit</button>
+                   </div>
+                   
+              
+               </form>
+               
+           </div>
+        </div>
+    </body>
